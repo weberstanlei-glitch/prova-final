@@ -1,0 +1,21 @@
+id,timestamp,host,type,message,account_name,failure_reason,process,file,dest_ip
+1764369342108829,2025-11-28T19:35:42.108595,DESKTOP-2HQF0RV,invalid_login,An account failed to log on.,user0,Bad password,,,
+1764369342117159,2025-11-28T19:35:42.117968,DESKTOP-2HQF0RV,successful_login,An account logged on.,user1,,,,
+1764369342119149,2025-11-28T19:35:42.119491,DESKTOP-2HQF0RV,successful_login,An account logged on.,user2,,,,
+1764369342120962,2025-11-28T19:35:42.120609,DESKTOP-2HQF0RV,invalid_login,An account failed to log on.,user3,Bad password,,,
+1764369342122842,2025-11-28T19:35:42.122367,DESKTOP-2HQF0RV,account_lockout,Account locked out.,user4,Too many failed attempts,,,
+1764369342123137,2025-11-28T19:35:42.123442,DESKTOP-2HQF0RV,process_exec,A suspicious process was executed.,svc_5,,powershell.exe -nop -w hidden -c ...,,
+1764369342127488,2025-11-28T19:35:42.127429,DESKTOP-2HQF0RV,network_conn,Outbound connection to unusual IP.,,,chrome.exe,,10.23.45.6
+1764369342129459,2025-11-28T19:35:42.129070,DESKTOP-2HQF0RV,invalid_login,An account failed to log on.,user7,Bad password,,,
+1764369342131545,2025-11-28T19:35:42.131380,DESKTOP-2HQF0RV,file_creation,A sensitive file was created.,user8,,,C:\secret\data8.txt,
+1764369342133297,2025-11-28T19:35:42.133264,DESKTOP-2HQF0RV,account_lockout,Account locked out.,user9,Too many failed attempts,,,
+1764369342134117,2025-11-28T19:35:42.134670,DESKTOP-2HQF0RV,process_exec,A suspicious process was executed.,svc_10,,powershell.exe -nop -w hidden -c ...,,
+1764369342136765,2025-11-28T19:35:42.136099,DESKTOP-2HQF0RV,invalid_login,An account failed to log on.,user11,Bad password,,,
+1764369342137623,2025-11-28T19:35:42.137409,DESKTOP-2HQF0RV,network_conn,Outbound connection to unusual IP.,,,chrome.exe,,10.23.45.12
+1764369342138853,2025-11-28T19:35:42.138742,DESKTOP-2HQF0RV,successful_login,An account logged on.,user13,,,,
+1764369342140337,2025-11-28T19:35:42.140066,DESKTOP-2HQF0RV,account_lockout,Account locked out.,user14,Too many failed attempts,,,
+1764369342141484,2025-11-28T19:35:42.141683,DESKTOP-2HQF0RV,account_lockout,Account locked out.,user15,Too many failed attempts,,,
+1764369342143406,2025-11-28T19:35:42.143127,DESKTOP-2HQF0RV,network_conn,Outbound connection to unusual IP.,,,chrome.exe,,10.23.45.16
+1764369342144226,2025-11-28T19:35:42.144411,DESKTOP-2HQF0RV,network_conn,Outbound connection to unusual IP.,,,chrome.exe,,10.23.45.17
+1764369342146815,2025-11-28T19:35:42.146276,DESKTOP-2HQF0RV,successful_login,An account logged on.,user18,,,,
+1764369342148405,2025-11-28T19:35:42.148280,DESKTOP-2HQF0RV,successful_login,An account logged on.,user19,,,,
